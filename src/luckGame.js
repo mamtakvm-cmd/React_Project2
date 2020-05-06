@@ -1,6 +1,6 @@
 var a= Math.random()*(100-1)+1;
 console.log(a);
-var b= prop("enter a number");
+var b= prompt("enter a number");
 if(a==b)
 console.log("Win");
 else
